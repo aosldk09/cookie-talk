@@ -1,0 +1,66 @@
+.welcome-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30%;
+  text-align: center;
+}
+
+.welcome-header__title {
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.welcome-header__text {
+  font-size: 20px;
+}
+
+.login-form {
+  margin: 25% 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input {
+  padding: 20px 10px;
+  margin-bottom: 15px;
+  border: none;
+  font-family: "Gamja Flower", cursive;
+  font-size: 20px;
+}
+
+.login-form input:not([type="submit"]) {
+  border-bottom: 2px solid black;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.login-form input:focus {
+  border-color: var(--orange);
+}
+
+.login-form input[type="submit"] {
+  background-color: var(--orange);
+  cursor: pointer;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+
+.login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.login-form a:hover {
+  color: var(--orange);
+}
+
+/*To Do List
+1. 약관 체크박스 한줄에 이동
+2. 각 input에 맞지 않는 값 입력시 이벤트박스 생성 
+3. 화면 디자인 수정 */
