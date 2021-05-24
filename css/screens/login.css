@@ -17,7 +17,7 @@
 }
 
 .login-form {
-  margin: 25% 5%;
+  margin: 20% 5%;
   display: flex;
   flex-direction: column;
 }
@@ -43,11 +43,18 @@
   border-color: var(--orange);
 }
 
+.login-form input[type="checkbox"] {
+  cursor: pointer;
+  position: relative;
+  top: 1.5px;
+}
+
 .login-form input[type="submit"] {
-  background-color: var(--orange);
+  background-color: var(--brown);
   cursor: pointer;
   font-weight: bolder;
   border-radius: 5px;
+  margin-top: 20px;
 }
 
 .login-form a {
@@ -57,10 +64,9 @@
 }
 
 .login-form a:hover {
-  color: var(--orange);
+  color: var(--brown);
 }
 
 /*To Do List
-1. 약관 체크박스 한줄에 이동
-2. 각 input에 맞지 않는 값 입력시 이벤트박스 생성 
-3. 화면 디자인 수정 */
+1. 각 input에 맞지 않는 값 입력시 이벤트박스 생성 
+2. 화면 디자인 수정 */

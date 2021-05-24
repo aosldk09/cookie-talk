@@ -30,11 +30,13 @@
       </p>
     </header>
 
-    <form class="login-form">
-      <input type="text" placeholder="가입 이메일" />
-      <input type="password" placeholder="비밀번호(8자 이상)" />
-      <input type="checkbox" name="약관동의" value="동의" />[필수] 쿠키톡계정
-      약관에 동의합니다.
+    <form action="friends.html" method="get" class="login-form">
+      <input name="username" type="text" placeholder="가입 이메일" />
+      <input name="password" type="password" placeholder="비밀번호(8자 이상)" />
+      <label for="a1"
+        ><input name="agreement" type="checkbox" value="agree" id="a1" /> [필수]
+        쿠키톡계정 약관에 동의합니다.</label
+      >
       <input type="submit" value="가입하기" />
       <a href="#">쿠키톡계정 또는 비밀번호 찾기</a>
     </form>

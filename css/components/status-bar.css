@@ -1,11 +1,15 @@
 .status-bar {
+  position: fixed;
+  top: 0px;
+  width: 100%; /* 화면밖으로 나가지 않게 */
+  box-sizing: border-box; /* content에 보이는 부분을 늘리지말라고 css에 말해주는 것 */
   display: flex;
   justify-content: center;
   padding: 5px 3px;
 }
 
 .status-bar__column {
-  width: 33%;
+  width: 33%; /* 컬럼을 사이간격을 동등하게하기위함 */
 }
 
 .status-bar__column:nth-child(2) {
