@@ -14,3 +14,7 @@
 .screen-header__icons span {
   margin-left: 20px;
 }
+
+.screen-header--line {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
