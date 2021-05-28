@@ -1,5 +1,7 @@
 .user-component {
+  display: flex;
   margin-top: 10px;
+  justify-content: space-between;
 }
 
 .user-component__column {
@@ -23,6 +25,11 @@
   font-size: 15px;
   margin-top: 10px;
   color: var(--gray);
+}
+
+.user-component__subtitle i {
+  margin: 0px 2px;
+  color: red;
 }
 
 .user-component__avatar--xl {
