@@ -22,7 +22,7 @@
 .user-component__subtitle {
   font-size: 15px;
   margin-top: 10px;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--gray);
 }
 
 .user-component__avatar--xl {
@@ -45,10 +45,10 @@
 }
 
 .user-component__time {
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--gray);
 }
 
 .user-component__time-1 {
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--gray);
   padding-bottom: 5px;
 }

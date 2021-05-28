@@ -1,4 +1,6 @@
 :root {
   --brown: #d78d44;
   --space: 20px;
+  --border: 1px solid rgba(0, 0, 0, 0.2);
+  --gray: rgba(0, 0, 0, 0.5);
 }
