@@ -23,23 +23,45 @@
     </div>
 
     <header class="welcome-header">
-      <h1 class="welcome-header__title">쿠키톡에 오신 것을 환영합니다.</h1>
+      <img src="https://pbs.twimg.com/media/EvXzL-WVoAAHprB.jpg:small" />
+      <h1 class="welcome-header__title">Welcome to CookieTalk!</h1>
       <p class="welcome-header__text">
-        지금 가입하셔서 여러 쿠키들과 <br />
-        대화를 나누어 보세요!
+        If you need a friend, <br />
+        come with cookies♥
       </p>
     </header>
 
     <form action="friends.html" method="get" class="login-form">
-      <input name="username" type="text" placeholder="가입 이메일" />
-      <input name="password" type="password" placeholder="비밀번호(8자 이상)" />
+      <input name="username" type="email" placeholder="Email" required />
+      <input
+        name="password"
+        type="password"
+        placeholder="Password"
+        minlength="8"
+        required
+      />
       <label for="a1"
-        ><input name="agreement" type="checkbox" value="agree" id="a1" /> [필수]
-        쿠키톡계정 약관에 동의합니다.</label
+        ><input
+          name="agreement"
+          type="checkbox"
+          value="agree"
+          id="a1"
+          required
+        />
+
+        [Required] I agree to the Cookie Talk Terms and Conditions.</label
       >
-      <input type="submit" value="가입하기" />
-      <a href="#">쿠키톡계정 또는 비밀번호 찾기</a>
+      <input type="submit" value="Sign up" />
+      <a href="#">Find Account or Password</a>
     </form>
+
+    <div id="no-mobile">
+      <img
+        src="https://stickershop.line-scdn.net/stickershop/v1/product/4167518/LINEStorePC/main.png;compress=true"
+      />
+      <span>Your screen is too big</span>
+      <span>Please reduce the screen</span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
